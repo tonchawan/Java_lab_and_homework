@@ -4,17 +4,20 @@ public class Employee {
     private int id ;
     private String firstname;
     private String lastname;
+    private String company ;
     private int salary;
+   
     
     
    
     public Employee () {
     }
    
-    public Employee (int id, String firstname,String lastname, int salary) {
+    public Employee (int id, String firstname,String lastname,String company, int salary) {
         this.id= id;
         this.firstname = firstname;
         this.lastname = lastname;
+        this.company= company;
         this.salary = salary;
     }
     public int getId() {
@@ -34,6 +37,13 @@ public class Employee {
     }
     public void setFirstname(String firstname) {
         this.firstname = firstname;
+    }
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
     }
     public int getSalary() {
         return salary * 2 ;
