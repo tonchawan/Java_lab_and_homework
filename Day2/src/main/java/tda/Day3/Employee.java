@@ -1,4 +1,4 @@
-package Day3;
+package tda.Day3;
 
 public class Employee {
     private int id ;

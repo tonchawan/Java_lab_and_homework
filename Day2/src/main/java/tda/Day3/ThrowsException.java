@@ -1,4 +1,4 @@
-package Day3;
+package tda.Day3;
 
 class ThrowsException {
     public static void main(String args[]) {

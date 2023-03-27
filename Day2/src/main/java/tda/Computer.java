@@ -1,4 +1,4 @@
-package Day2;
+package tda;
 class Computer {
     public void createDocument() {
         System.out.println("Creating a new document...");

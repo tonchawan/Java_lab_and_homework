@@ -1,4 +1,4 @@
-package Day2;
+package tda;
 
 public class Macbook extends iMac {
     public void useWithoutPlug() {

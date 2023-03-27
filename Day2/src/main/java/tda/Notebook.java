@@ -1,4 +1,4 @@
-package Day2;
+package tda;
 
 public class Notebook extends Desktop {
     public void useWithoutPlug() {

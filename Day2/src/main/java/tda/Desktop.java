@@ -1,4 +1,4 @@
-package Day2;
+package tda;
 
 public class Desktop extends Computer {
     public void startMenu() {

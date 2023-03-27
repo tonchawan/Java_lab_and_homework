@@ -1,4 +1,4 @@
-package Day2;
+package tda;
 
 public class iMac extends Computer {
     public void magicMouse() {
